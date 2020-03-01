@@ -8,6 +8,8 @@
   },
   "scripts": {
     "build-web": "cd web && gatsby build && rm -rf ../docs && cp -R ./public ../docs",
+    "backend": "cd backend && yarn dev",
+    "frontend": "cd frontend && yarn start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
