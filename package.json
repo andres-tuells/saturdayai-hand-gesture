@@ -1,0 +1,23 @@
+{
+  "name": "saturdayai-hand-gesture",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build-web": "cd web && gatsby build && rm -rf ../docs && cp -R ./public ../docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andres-tuells/saturdayai-hand-gesture.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andres-tuells/saturdayai-hand-gesture/issues"
+  },
+  "homepage": "https://github.com/andres-tuells/saturdayai-hand-gesture#readme"
+}
