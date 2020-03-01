@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Novela by Narative`,
-    name: `Narative`,
-    siteUrl: `https://novela.narative.co`,
+    title: `Taichi Masters`,
+    name: `Saturday-AI`,
+    siteUrl: `https://andres-tuells.github.io/saturdayai-hand-gesture/`,
     description: `This is my description that will be used in the meta tags and important for search results`,
     hero: {
-      heading: `Welcome to Novela, the simplest way to start publishing with Gatsby.`,
+      heading: `Welcome to Taichi Masters, a Saurday-AI project for image recognition.`,
       maxWidth: 652,
     },
     social: [
