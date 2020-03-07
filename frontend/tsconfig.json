@@ -1,26 +1,11 @@
 {
-  "compileOnSave": true,
   "compilerOptions": {
     "target": "es5",
-    "noImplicitAny": false,
-    "sourceMap": true,
-    "preserveConstEnums": true,
     "lib": [
-      "es2016",
       "dom",
-      "esnext",
       "dom.iterable",
-      "scripthost"
+      "esnext"
     ],
-    "noUnusedLocals": true,
-    "noImplicitReturns": true,
-    "noImplicitThis": true,
-    "alwaysStrict": true,
-    "strictNullChecks": true,
-    "noUnusedParameters": false,
-    "pretty": true,
-    "allowUnreachableCode": false,
-    "experimentalDecorators": true,
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -32,16 +17,10 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "preserve",
+    "jsx": "react",
+    "noImplicitAny": false
   },
   "include": [
-    "src/**/*.ts",
-    "src/**/*.tsx",
-    "tests/**/*.ts",
-    "tests/**/*.tsx"
-  ],
-  "exclude": [
-    "node_modules",
-    "src/common"
+    "src"
   ]
 }
