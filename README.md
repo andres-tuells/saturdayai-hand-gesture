@@ -37,6 +37,28 @@ Build an interactive game that is played from a browser with webcam + mic.
 #### Milestones
 Define simple projects.
 
+##### Build basic infrastructure
+- Use kafka
+- Browser connects with kafka through ws: https://github.com/Effyis/kafka2websocket
+- basic password and security in server | passport
+- user management
+
+##### Connect to webcam and send back
+- React uses webcam and mic
+- Send data to kafka
+- kafka sends to subscribers
+- video chat
+
+##### Aframe visor
+- React + Aframe
+- Interact with Aframe as visor for app
+
+##### Yolo for image localization
+- Use yolo for localizing head + hands
+
+#### Image segmentation
+- Do image segmentation
+
 ##### Face sentiment analysis
 Use Udacity CV Project
 - Localize face from webcam
